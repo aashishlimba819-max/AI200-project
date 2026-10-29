@@ -107,39 +107,23 @@ Residual plot showing prediction errors.
 # 9. Project Structure
 
 used-car-resale-price-prediction/
-
 │
-
 ├── data/
-
 │   └── car_data.csv
-
 │
-
 ├── notebooks/
-
 │   └── used_car_price_prediction.ipynb
-
 │
-
 ├── src/
-
 │   ├── preprocessing.py
-
 │   ├── train_model.py
-
 │   └── evaluation.py
-
 │
 ├── results/
-
 │   └── plots/
-
 │
 ├── requirements.txt
-
 ├── README.md
-
 └── .gitignore
 
 
