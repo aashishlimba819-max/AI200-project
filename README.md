@@ -27,48 +27,81 @@ Visualize actual and predicted prices and interpret the results.
 
 # 4.Dataset
 Source: Kaggle
+
 https://www.kaggle.com/datasets/nehalbirla/vehicle-dataset-from-cardekho?resource=download
+
 The dataset contains used car information, including vehicle characteristics and selling prices.
+
 The exact features used in the model will depend on the columns available in the downloaded dataset.
+
 # Factore to Analyze
 
-
 # 5. Methodology
+
 The project will follow these steps:
+
 Data collection: Download the dataset from Kaggle.
+
 Data exploration: Inspect the dataset structure, feature types, summary statistics, and distributions.
+
 Data preprocessing: Check for missing values, duplicate records, outliers, and categorical variables.
+
 Feature selection: Select appropriate input features and define the selling price as the target variable.
+
 Data splitting: Divide the dataset into training and testing sets.
+
 Model training: Train a Linear Regression model on the training data.
+
 Prediction: Generate selling-price predictions for the test data.
+
 Evaluation: Calculate regression metrics and create relevant plots.
+
 Interpretation: Explain the results, prediction errors, and limitations.
 
 # 6. Technologies and Libraries
+
 Python
+
 Pandas — data manipulation
+
 NumPy — numerical computation
+
 Matplotlib — data visualization
+
 Seaborn — statistical visualization
+
 Scikit-learn — model training and evaluation
+
 Jupyter Notebook — interactive development
+
 Git and GitHub — version control and collaboration
 
 # 7. Model Evaluation
+
 The model will be evaluated using the following metrics:
+
 Mean Absolute Error (MAE): Measures the average absolute difference between actual and predicted prices.
+
 Root Mean Squared Error (RMSE): Measures prediction error while penalizing larger errors more strongly.
+
 Coefficient of Determination (R²): Measures how much of the variation in the target is explained by the model.
+
 Training and testing performance will be compared to assess generalization.
 
 # 8. Expected Visualizations
+
 The project may include:
+
 Distribution of used-car selling prices.
+
 Correlation heatmap of numerical features.
+
 Selling price versus vehicle age.
+
 Selling price versus kilometres driven.
+
 Actual versus predicted selling prices.
+
 Residual plot showing prediction errors.
 
 
